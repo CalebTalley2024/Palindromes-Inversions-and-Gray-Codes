@@ -1,3 +1,4 @@
+import java.security.spec.RSAOtherPrimeInfo;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -15,7 +16,7 @@ public class Main {
 
         //3a
         System.out.println(GreyCode.BRGC(4));
-
+        System.out.println(GreyCode.BaRGCNmes(GreyCode.BRGC(4)));
 //        List<String> L = new ArrayList<>(Arrays.asList("01","11","2","3"));
 //        Collections.reverse(L);
 //        System.out.println(L);

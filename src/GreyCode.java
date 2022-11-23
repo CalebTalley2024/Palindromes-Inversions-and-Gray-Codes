@@ -10,6 +10,8 @@ public class GreyCode {
     //Generates recursively the binary reflected Gray code of order n
     //Input: A positive integer n
     //Output: A list of all bit strings of length n composing the Gray code
+
+//    public static void graycodesarefun();
     public static ArrayList<String> BRGC(int n){
         ArrayList<String> L = new ArrayList<>();
         if (n == 1){
@@ -31,7 +33,7 @@ public class GreyCode {
             for( int i = 0; i< L2.size();i++) {
                 L2.set(i,"1"+L2.get(i));
             }
-            System.out.println("This is L2: " + L2);
+//            System.out.println("This is L2: " + L2);
 //            L1.foreach
             // add both lists to L
             L = L1;
@@ -41,14 +43,54 @@ public class GreyCode {
 
     }
 
+    // takes in a BRGC sequence, returns a list of names that corresponds to the BRGC sequence
     public static ArrayList<String> BaRGCNmes (ArrayList<String> sequence){
-        // make an array for names
-        // compare the first and last elements
-        // see where the difference is
-        // the place of the differnce deteremines the String you put in your array
-        // return your number
+        ArrayList<String> Names = new ArrayList<String>();
+
+        Names.add("Nobody");//////////////////place holder
+
+        for (int i = 0; i<sequence.size() - 1;i++){
+            // compare the first and last elements23
+            // see where the difference is
+            int bitDiff =  getBStringDiff(sequence.get(i),sequence.get(i+1));
+            String aName = nameDecider(bitDiff);
+            // the place of the differnce deteremines the String you put in your array
+            Names.add(aName);
+        }return Names;
     }
-//    public static ArrayList<String> BaRGCNmesGreaterThanFour (ArrayList<String> sequence)
+    // helper: compares two strings and returns the index in which they differ
+    public static int getBStringDiff (String bit1,String bit2){
+        int num = 0;
+        for (int i  = 0; i<bit1.length(); i++){
+            if(bit1.charAt(i) != bit2.charAt(i)){
+                num = i;
+            }
+        }return num;
+    }
+    ///// SO FAR THIS only works for n = 4
+    public static String nameDecider(int index){
+        String name = "";
+        // depending on the index, pick the name
+        switch(index){
+            case 0:
+                name = "Dylan";
+                break;
+            case 1:
+                name = "Chris";
+                break;
+            case 2:
+                name = "Bob";
+                break;
+            case 3:
+                name = "Alice";
+                break;
+
+        }return name;
+
+    }
+
+
+// make a hashmap with each key corresponding to a different column of the table
 
 
 

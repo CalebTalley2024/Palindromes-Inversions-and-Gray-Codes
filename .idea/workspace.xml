@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="Finished 2a">
-      <change afterPath="$PROJECT_DIR$/src/GreyCode.java" afterDir="false" />
+    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GreyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreyCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-19/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19/lib/src.zip!/java.base/java/util/AbstractList.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-19/lib/src.zip!/java.base/java/util/Collections.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668987185680</updated>
       <workItem from="1668987187519" duration="9086000" />
-      <workItem from="1669130299178" duration="10613000" />
+      <workItem from="1669130299178" duration="13811000" />
     </task>
     <task id="LOCAL-00001" summary="Part 1 done (with bonus)">
       <created>1668992593917</created>
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669001531750</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3">
+      <created>1669183976635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669183976635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +101,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Part 1 done (with bonus)" />
     <MESSAGE value="Finished 2a" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 2a" />
+    <MESSAGE value="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
