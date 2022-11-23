@@ -13,7 +13,6 @@ public class Inversion {
                     invertCounter++;
                 }
             }
-
         }
         System.out.println(" for your array, you have " + invertCounter +" inversions");
     // if we have an inversion, then add 1 to the counter
