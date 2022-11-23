@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3">
+    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="&#10;GreyCode.java,line &#10;fixes: 3b&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,Bonus questions for 3">
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GreyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreyCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -38,17 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\My Drive\WPI\Senior Year 1\B Term\CS 2223\Homeworks\HW3\Talley-C-Stuff-B22HW3" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668987185680</updated>
       <workItem from="1668987187519" duration="9086000" />
-      <workItem from="1669130299178" duration="13811000" />
+      <workItem from="1669130299178" duration="26692000" />
     </task>
     <task id="LOCAL-00001" summary="Part 1 done (with bonus)">
       <created>1668992593917</created>
@@ -81,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669183976635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;GreyCode.java,line &#10;fixes: 3b&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,Bonus questions for 3">
+      <created>1669220346809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669220346809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +120,8 @@
     <MESSAGE value="Part 1 done (with bonus)" />
     <MESSAGE value="Finished 2a" />
     <MESSAGE value="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3" />
+    <MESSAGE value="&#10;GreyCode.java,line &#10;fixes: 3b&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,Bonus questions for 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;GreyCode.java,line &#10;fixes: 3b&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,Bonus questions for 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

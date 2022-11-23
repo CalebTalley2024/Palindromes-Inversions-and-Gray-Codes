@@ -1,8 +1,5 @@
 import java.security.spec.RSAOtherPrimeInfo;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,14 +11,13 @@ public class Main {
 //        Inversion.easyinversioncount(Inversion.testNums1);
         //2b
 
-        //3a
-        System.out.println(GreyCode.BRGC(4));
-        System.out.println(GreyCode.BaRGCNmes(GreyCode.BRGC(4)));
-//        List<String> L = new ArrayList<>(Arrays.asList("01","11","2","3"));
-//        Collections.reverse(L);
-//        System.out.println(L);
+        //3
+//      You have to type what order you want for your sequence
+        Scanner sc = new Scanner(System.in);
+        System.out.println("GrayCodesAreFun: Pick an order between 1 and 11");
+        int order = sc.nextInt();
+          GreyCode.graycodesarefun(order);
 
-        //3b
 
 
     }
