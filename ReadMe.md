@@ -1,5 +1,7 @@
 # HW 3
 
+## Problem 2
+Both algorithms use doubles, not ints
 ## Problem 3
 - the Action column zip zags a bit
 - There is a scanner that lets you pick how long you pick your order
