@@ -21,7 +21,7 @@ public class Main {
 //          GreyCode.graycodesarefun(order);
 
         ///// Comment this out to run the order of 4 Gray code
-        GreyCode.graycodesarefun(4);
+//        GreyCode.graycodesarefun(4);
 
 
 
