@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="&#10;reverse childrenInPhoto order to fit photo&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;finish 2b">
+    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -69,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668987185680</updated>
       <workItem from="1668987187519" duration="9086000" />
-      <workItem from="1669130299178" duration="38797000" />
+      <workItem from="1669130299178" duration="43492000" />
     </task>
     <task id="LOCAL-00001" summary="Part 1 done (with bonus)">
       <created>1668992593917</created>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669234495635</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo">
+      <created>1669266149394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669266149394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +135,8 @@
     <MESSAGE value="&#10;GreyCode.java,line 20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,3d, Bonus questions for 3" />
     <MESSAGE value="&#10;GreyCode.java,line &#10;fixes: 3b&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,Bonus questions for 3" />
     <MESSAGE value="&#10;reverse childrenInPhoto order to fit photo&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;finish 2b" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;reverse childrenInPhoto order to fit photo&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;finish 2b" />
+    <MESSAGE value="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

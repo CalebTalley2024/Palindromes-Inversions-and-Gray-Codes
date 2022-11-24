@@ -8,11 +8,10 @@ public class Main {
 //        Palindrome.palindromecheck();
 
         //2a
-//        Inversion.easyinversioncount(Inversion.testNums4);
-        System.out.println(Inversion.mergeSort(Inversion.testNums5));
+        Inversion.easyinversioncount(Inversion.testNums3);
 
         //2b
-
+        Inversion.fastinversioncount(Inversion.testNums3List);
         //3
 //      You have to type what order you want for your sequence
 //        Scanner sc = new Scanner(System.in);
