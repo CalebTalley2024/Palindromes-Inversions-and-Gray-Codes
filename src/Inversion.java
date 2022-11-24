@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class Inversion {
 
     // Naive sorting: brute force
-    static ArrayList<Double> testNums1 = new ArrayList<>(Arrays.asList(3.0,2.0,1.0));
-    static ArrayList<Double> testNums2 = new ArrayList<Double>(Arrays.asList(8.0,8.0,6.0,7.0,5.0,1.0,3.0,2.0,4.0));
+    static ArrayList<Integer> testNums1 = new ArrayList<>(Arrays.asList(3,2,1));
+    static ArrayList<Integer> testNums2 = new ArrayList<Integer>(Arrays.asList(8,8,6,7,5,1,3,2,4));
 
     // uses 2 for loops to find # of inversions
 
-    public static int easyinversioncount(ArrayList<Double> nums){
+    public static int easyinversioncount(ArrayList<Integer> nums){
         int invertCounter = 0;
         // itterate throught the list using nested for loop
         for(int i = 0; i<nums.size();i++){
@@ -26,7 +26,7 @@ public class Inversion {
     }
     //
     // uses Merge sort divide and conquer method to find # of inversions
-    public static int fastinversioncount(ArrayList<Double> nums){
+    public static int fastinversioncount(ArrayList<Integer> nums){
 
         int counter = 0;
         ArrayList<Object> numsWithCounter = new ArrayList<>();
@@ -42,7 +42,7 @@ public class Inversion {
     }
 
     public static ArrayList<Object> mergeSort(ArrayList<Object> numsWithCounter){
-        ArrayList<Double> nums = (ArrayList<Double>) numsWithCounter.get(0);
+        ArrayList<Integer> nums = (ArrayList<Integer>) numsWithCounter.get(0);
         int counter = (int) numsWithCounter.get(1);
 
         // if you just have one number in your nums list (or you have reached the deepest level)......
@@ -55,9 +55,9 @@ public class Inversion {
         // divide your nums arraylist into two parts
         // nums1: nums from indexes - to the floor of the middle (size/2)
         int mid = (int) Math.ceil(nums.size()/2);
-        ArrayList<Double> nums1 = subArrayList(nums,0, mid);
+        ArrayList<Integer> nums1 = subArrayList(nums,0, mid);
 
-        ArrayList<Double> nums2 = subArrayList(nums, mid,nums.size());
+        ArrayList<Integer> nums2 = subArrayList(nums, mid,nums.size());
 
 
         ArrayList<Object> numsWithCounter1 = new ArrayList<>();
@@ -81,11 +81,11 @@ public class Inversion {
     public static ArrayList<Object> merge(ArrayList<Object> numsWithCounterA, ArrayList<Object> numsWithCounterB){
         // get the arraylist
         // I used A and B instead of 1 and 2 since A and B was easier to keep track of for me in this function
-        ArrayList<Double> numsA = (ArrayList<Double>) numsWithCounterA.get(0);
-        ArrayList<Double> numsB = (ArrayList<Double>) numsWithCounterB.get(0);
+        ArrayList<Integer> numsA = (ArrayList<Integer>) numsWithCounterA.get(0);
+        ArrayList<Integer> numsB = (ArrayList<Integer>) numsWithCounterB.get(0);
         //// new variables
 //        ArrayList<Object> mergedNumsWithCounter = new ArrayList<>();
-        ArrayList<Double> mergedNums = new ArrayList<>();
+        ArrayList<Integer> mergedNums = new ArrayList<>();
         int newCounter = 0;
         // while both arrays have elements
         while ((numsA.size() !=0)&&(numsB.size() !=0)){
@@ -133,8 +133,8 @@ public class Inversion {
 
     }
 
-    public static ArrayList<Double> subArrayList(ArrayList<Double> AList,int beginning, int end){
-        ArrayList<Double> subAList = new ArrayList<>();
+    public static ArrayList<Integer> subArrayList(ArrayList<Integer> AList,int beginning, int end){
+        ArrayList<Integer> subAList = new ArrayList<>();
         for (int i = beginning; i<end;i++){
             subAList.add(AList.get(i));
         }

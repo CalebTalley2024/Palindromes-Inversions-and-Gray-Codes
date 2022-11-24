@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="Final Edits:&#10;&#10;Done: &#10;- reverse childrenInPhoto order to fit photo&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- other patterns&#10;- edit Markdown file for instructions" />
+    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="Final Final Edits:&#10;&#10;Commented out Grey code funciton in Main.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/My Drive/CS WPI Classes - copy/CS 2102/Homework/HW3",
+    "last_opened_file_path": "G:/My Drive/WPI/Senior Year 1/B Term/CS 2223/Homeworks/HW3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668987185680</updated>
       <workItem from="1668987187519" duration="9086000" />
-      <workItem from="1669130299178" duration="50885000" />
+      <workItem from="1669130299178" duration="51208000" />
     </task>
     <task id="LOCAL-00001" summary="Part 1 done (with bonus)">
       <created>1668992593917</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669306414417</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Final Final Edits:&#10;&#10;Commented out Grey code funciton in Main.java">
+      <created>1669306502696</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669306502696</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +159,8 @@
     <MESSAGE value="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
     <MESSAGE value="&#10;&#10;&#10;completed merge sort for Part 2&#10;&#10;still needs to be done&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
     <MESSAGE value="Final Edits:&#10;&#10;Done: &#10;- reverse childrenInPhoto order to fit photo&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- other patterns&#10;- edit Markdown file for instructions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Edits:&#10;&#10;Done: &#10;- reverse childrenInPhoto order to fit photo&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- other patterns&#10;- edit Markdown file for instructions" />
+    <MESSAGE value="Final Final Edits:&#10;&#10;Commented out Grey code funciton in Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Final Edits:&#10;&#10;Commented out Grey code funciton in Main.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

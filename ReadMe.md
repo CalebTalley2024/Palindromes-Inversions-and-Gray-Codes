@@ -5,9 +5,8 @@
 - uses scanner to get input from keyboard
 ### Bonus
 - program is case insensitive, and ignores white space and punctuation
-  Both algorithms use doubles, not int
 ## Problem 2: easyinversioncount and fastinversioncount
-- Input for both `easyinversioncount` and `fastinversioncount`: `ArrayList<Double>`
+- Input for both `easyinversioncount` and `fastinversioncount`: `ArrayList<Integer>`
   
 ## Problem 3: graycodesarefun
 - There is a scanner that lets you pick how long you pick your order
