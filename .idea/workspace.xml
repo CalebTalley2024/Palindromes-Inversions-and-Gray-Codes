@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo">
+    <list default="true" id="8d7503a7-dada-489b-9c07-21f8299aebc2" name="Changes" comment="&#10;&#10;&#10;say that you got inspiration from Professor Engling and Michael Sambol's youtube channel for merge sort&#10;&#10;still needs to be done&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo&#10;- make Github Page private">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GreyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreyCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -43,10 +45,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/My Drive/CS WPI Classes - copy/CS 2102/Homework/HW3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -68,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668987185680</updated>
       <workItem from="1668987187519" duration="9086000" />
-      <workItem from="1669130299178" duration="43492000" />
+      <workItem from="1669130299178" duration="50521000" />
     </task>
     <task id="LOCAL-00001" summary="Part 1 done (with bonus)">
       <created>1668992593917</created>
@@ -112,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669266149394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&#10;&#10;&#10;completed merge sort for Part 2&#10;&#10;still needs to be done&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo">
+      <created>1669271491365</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669271491365</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +147,8 @@
     <MESSAGE value="&#10;GreyCode.java,line &#10;fixes: 3b&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;Things left to do &#10;- 2c,3c,Bonus questions for 3" />
     <MESSAGE value="&#10;reverse childrenInPhoto order to fit photo&#10;&#10;20: Why do I need to make a copy??????&#10;&#10;finish 2b" />
     <MESSAGE value="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;&#10;added merge sort for part 2b&#10;&#10;still needs to be done&#10;- adding counter for inversions&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
+    <MESSAGE value="&#10;&#10;&#10;completed merge sort for Part 2&#10;&#10;still needs to be done&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;&#10;completed merge sort for Part 2&#10;&#10;still needs to be done&#10;- formatting (consistent imput for easy and fast inversion sort, variables names, etc)&#10;- proofreading&#10;- reverse childrenInPhoto order to fit photo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

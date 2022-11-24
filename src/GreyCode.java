@@ -4,11 +4,9 @@ import java.util.stream.Stream;
 
 public class GreyCode {
 
-
-    //Generates recursively the binary reflected Gray code of order n
+    //graycodesarefun:
     //Input: A positive integer n
-    //Output: A list of all bit strings of length n composing the Gray code
-
+    // Output: Table
     public static void graycodesarefun(int order){
         ArrayList<Integer> indexes = Indexes(order);
         ArrayList<String> grayCodes = BRGC(order);
@@ -71,12 +69,16 @@ public class GreyCode {
     }
 
     public static ArrayList<String> childrenInPhoto(ArrayList<String> sequence){
+        // get the array form of all of the arrays of children
         ArrayList<ArrayList<String>> childrenInPhotoArrays = childrenInPhotoArrays( sequence);
         ArrayList<String> groups = new ArrayList<>();
         // do "Name" + "+" for all but the last name, then after the for loop, add the last name
-        groups.add("No one");
+        groups.add("Nobody");
+
         for (int i = 1; i<childrenInPhotoArrays.size();i++){
             ArrayList<String>aChildArray = childrenInPhotoArrays.get(i);
+            // reverse the list order to match order in the assignment pdf
+            Collections.reverse(aChildArray);
 //            System.out.println(aChildArray);
             // aGroup: group for each grey code number
             String aGroup = "";
@@ -136,7 +138,7 @@ public class GreyCode {
     public static ArrayList<String> getNames (ArrayList<String> sequence){
         ArrayList<String> Names = new ArrayList<String>();
 
-        Names.add("Nobody");//////////////////place holder
+        Names.add("Do");//////////////////place holder
 
         for (int i = 0; i<sequence.size() - 1;i++){
             // compare the first and last elements23

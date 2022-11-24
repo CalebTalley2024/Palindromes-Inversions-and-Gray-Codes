@@ -5,18 +5,17 @@ import java.util.Arrays;
 public class Inversion {
 
     // Naive sorting: brute force
-    static double [] testNums1 = {3.0,2,1};
-    static double [] testNums2 = {5,1,4,2,3,6,7,9,8};
-    static double [] testNums3 = {8,8,6,7,5,1,3,2,4};
-    static double [] testNums4 = {4,6,7,5,1,3,2,8};
+    static ArrayList<Double> testNums1 = new ArrayList<>(Arrays.asList(3.0,2.0,1.0));
+    static ArrayList<Double> testNums2 = new ArrayList<Double>(Arrays.asList(8.0,8.0,6.0,7.0,5.0,1.0,3.0,2.0,4.0));
 
-    static ArrayList<Double> testNums3List = new ArrayList<Double>(Arrays.asList(8.0,8.0,6.0,7.0,5.0,1.0,3.0,2.0,4.0));
-    public static int easyinversioncount(double[] nums){
+    // uses 2 for loops to find # of inversions
+
+    public static int easyinversioncount(ArrayList<Double> nums){
         int invertCounter = 0;
         // itterate throught the list using nested for loop
-        for(int i = 0; i<nums.length;i++){
-            for(int j = i+1; j<nums.length;j++){
-                if(nums[i]>nums[j]){
+        for(int i = 0; i<nums.size();i++){
+            for(int j = i+1; j<nums.size();j++){
+                if(nums.get(i)>nums.get(j)){
                     invertCounter++;
                 }
             }
@@ -25,6 +24,8 @@ public class Inversion {
         // if we have an inversion, then add 1 to the counter
         return invertCounter;
     }
+    //
+    // uses Merge sort divide and conquer method to find # of inversions
     public static int fastinversioncount(ArrayList<Double> nums){
 
         int counter = 0;
@@ -76,8 +77,10 @@ public class Inversion {
         // this will eventually give you the whole list sorted
         return merge(numsWithCounter1,numsWithCounter2);
     }
+
     public static ArrayList<Object> merge(ArrayList<Object> numsWithCounterA, ArrayList<Object> numsWithCounterB){
         // get the arraylist
+        // I used A and B instead of 1 and 2 since A and B was easier to keep track of for me in this function
         ArrayList<Double> numsA = (ArrayList<Double>) numsWithCounterA.get(0);
         ArrayList<Double> numsB = (ArrayList<Double>) numsWithCounterB.get(0);
         //// new variables
